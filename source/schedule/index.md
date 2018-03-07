@@ -1,4 +1,4 @@
-layout: schedule
+
 title: 2018
 ---
 ## 如何做任务
@@ -14,3 +14,4 @@ title: 2018
 * 任务一：(已完成)面向零基础的 HTML 代码编写 [知识点](https://github.com/StartEnd/hexo/tree/master/source/ife/task01/index.html) [源码](https://github.com/StartEnd/hexo/tree/master/source/ife/task01/index.html) [预览](http://yuanchunxiang.com/ife/task01/)
 * 任务二：简单的 CSS 代码编写   [源码](https://github.com/StartEnd/hexo/tree/master/source/ife/task01/index.html)      [预览](http://yuanchunxiang.com/ife/task01/)
 * 任务三： HTML，CSS 布局入门   [源码](https://github.com/StartEnd/hexo/tree/master/source/ife/task01/index.html)      [预览](http://yuanchunxiang.com/ife/task01/)
+
