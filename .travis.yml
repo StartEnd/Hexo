@@ -21,6 +21,7 @@ script:
   - hexo g  #生成
 
 after_script:
+  - cp CNAME ./public
   - cd ./public
   - git init
   - git config user.name "START_END"  #修改name
