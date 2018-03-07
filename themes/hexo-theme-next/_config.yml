@@ -111,7 +111,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-##scheme: Muse
+#scheme: Muse
 scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
@@ -127,7 +127,7 @@ scheme: Mist
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 #social:
-  GitHub: https://github.com/StartEnd || github
+  #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -406,7 +406,7 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: zh-Hans# Force language, or auto switch by theme
+  language: zh-Hans # Force language, or auto switch by theme
   github_user: # MUST HAVE, Your Github ID
   github_repo: # MUST HAVE, The repo you use to store Gitment comments
   client_id: # MUST HAVE, Github client id for the Gitment
@@ -425,12 +425,12 @@ gitment:
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-jiathis: true
+#jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # NeedMoreShare2
 # This plugin is a pure javascript sharing lib which is useful in China.
