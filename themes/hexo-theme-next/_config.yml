@@ -361,7 +361,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname: startend
+  shortname: yuanchunxiang
   count: true
 
 # Hypercomments
