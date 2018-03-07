@@ -13,7 +13,7 @@ footer: 生命中最难的阶段不是没人懂你,而是你不懂你自己
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yuanchunxiang.com
+url: yuanchunxiang.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
