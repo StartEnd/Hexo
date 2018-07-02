@@ -1,10 +1,18 @@
 
-title: 2018
+title: 我的产品之路
 ---
-## 100天100个知识点
 
-* [ ]  [3.08---动手创建NSObject](http://liyong03.github.io/blog/2014/03/09/lets-build-nsobject/)
-* [ ]  [3.09---实现UITableView循环利用](https://www.jianshu.com/p/bc0a55e9b09b)
+## 作息
+
+## 课程安排
+
+
+##  书单
+1. 人人都是产品经理
+
+
+2. 
+
 
 
 
