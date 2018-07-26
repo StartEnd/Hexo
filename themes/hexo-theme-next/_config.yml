@@ -780,35 +780,3 @@ vendors:
   # three
   three:
 
-  # three_waves
-  # https://github.com/jjandxa/three_waves
-  three_waves:
-
-  # three_waves
-  # https://github.com/jjandxa/canvas_lines
-  canvas_lines:
-
-  # three_waves
-  # https://github.com/jjandxa/canvas_sphere
-  canvas_sphere:
-
-  # Internal version: 1.0.0
-  # https://github.com/zproo/canvas-ribbon
-  canvas_ribbon:
-
-  # Internal version: 3.3.0
-  # https://github.com/ethantw/Han
-  han:
-
-  # needMoreShare2
-  # https://github.com/revir/need-more-share2
-  needMoreShare2:
-
-
-# Assets
-css: css
-js: js
-images: images
-
-# Theme version
-version: 5.1.4
