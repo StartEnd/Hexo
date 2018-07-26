@@ -127,14 +127,9 @@ menu:
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
-
 menu_settings:
   icons: true
   badges: false
-  
-  
-menu_icons:
-  enable: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -159,9 +154,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-social:
-  #GitHub: https://github.com/StartEnd || github
-  E-Mail: mailto:996982027@qq.com || envelope
+#social:
+  #GitHub: https://github.com/yourname || github
+  #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -703,7 +698,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
