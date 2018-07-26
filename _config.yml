@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 生活没有如果
-subtitle: 世上哪有什么岁月静好,不过是有人替你负重前行
+title: Mr. Song's blog
+subtitle: 完成比完美更重要
 description: Developer
 author: 水煮冰
-language: zh-Hans
+language: zh-CN
 timezone: UTC
-footer: 生命中最难的阶段不是没人懂你,而是你不懂你自己
+footer: Make everything as simple as possible,but not simpler
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: next-reloaded ## hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,4 +82,10 @@ deploy:
   repo: git@github.com:StartEnd/StartEnd.github.io.git
   branch: master
 
+# Search 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 

@@ -1,8 +1,8 @@
 ---
 title: Learn python(001)	基础
 date: 2016-7-1
+updated: 2016-7-3
 tags: learn python
-toc: false
 ---
 
 
