@@ -59,14 +59,14 @@
                 {% set categoriesPageQuery = site.pages.find({type: 'categories'}, {lean: true}) %}
                 {% set hasCategoriesPage = categoriesPageQuery.length > 0 %}
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories">
+                  {% if hasCategoriesPage %}<a href="{{ url_for(categoriesPageQuery[0].path) }}">{% endif %}
                     {% set visibleCategories = 0 %}
                     {% for cat in site.categories %}
                       {% if cat.length %}{% set visibleCategories += 1 %}{% endif %}
                     {% endfor %}
                     <span class="site-state-item-count">{{ visibleCategories }}</span>
                     <span class="site-state-item-name">{{ __('state.categories') }}</span>
-                  </a>
+                  {% if hasCategoriesPage %}</a>{% endif %}
                 </div>
               {% endif %}
 
@@ -74,14 +74,14 @@
                 {% set tagsPageQuery = site.pages.find({type: 'tags'}, {lean: true}) %}
                 {% set hasTagsPage = tagsPageQuery.length > 0 %}
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags">
+                  {% if hasTagsPage %}<a href="{{ url_for(tagsPageQuery[0].path) }}">{% endif %}
                     {% set visibleTags = 0 %}
                     {% for tag in site.tags %}
                       {% if tag.length %}{% set visibleTags += 1 %}{% endif %}
                     {% endfor %}
                     <span class="site-state-item-count">{{ visibleTags }}</span>
                     <span class="site-state-item-name">{{ __('state.tags') }}</span>
-                  </a>
+                  {% if hasTagsPage %}</a>{% endif %}
                 </div>
               {% endif %}
             </nav>
