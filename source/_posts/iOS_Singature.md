@@ -1,8 +1,8 @@
 ---
 title: iOS 签名机制
-date: 2018-7-1
+date: 2017-7-1
 tags: iOS
-toc: false
+toc: true
 ---
 
 ## 为什么需要签名机制

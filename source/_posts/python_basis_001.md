@@ -5,7 +5,6 @@ tags: learn python
 toc: false
 ---
 
-# Learn python-01	基础
 
 ## Python基础
 
