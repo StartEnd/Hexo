@@ -3,17 +3,17 @@ language: node_js  #设置语言
 sudo: false
 
 node_js:
-  - "8" 
+  - "7.6" 
 
 branches:
   only:
     - master
 
 cache:
-  apt: true
-  yarn: true
-  directories:
-    - node_modules
+    #  apt: true
+    #yarn: true
+    #directories:
+    #- node_modules
 
 before_install: 
   - git config user.name "START_END"  #修改name
