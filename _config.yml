@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -107,6 +107,20 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
   
+symbols_count_time:
+  symbols: true
+  time: false
+  total_symbols: true
+  total_time: false
+  
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
   
 # hexo-neat 静态资源压缩
 neat_enable: true 
