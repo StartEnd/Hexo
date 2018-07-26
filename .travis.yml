@@ -3,7 +3,7 @@ language: node_js  #设置语言
 sudo: false
 
 node_js:
-  - stable 
+  - "8" 
 
 branches:
   only:
