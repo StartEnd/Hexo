@@ -130,7 +130,11 @@ menu:
 
 menu_settings:
   icons: true
-  badges: true
+  badges: false
+  
+  
+menu_icons:
+  enable: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
