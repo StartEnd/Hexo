@@ -109,8 +109,8 @@ baidusitemap:
   
 symbols_count_time:
   symbols: true
-  time: false
-  total_symbols: true
+  time: true
+  total_symbols: false
   total_time: false
   
 #RSS订阅
@@ -121,6 +121,21 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+
+# 链接过滤
+nofollow:
+	enable: true
+	exclude:
+    - yuanchunxiang.com
+    - github.com
+	
+	
+# 图片懒加载
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: /images/loading.gif 
   
 # hexo-neat 静态资源压缩
 neat_enable: true 
