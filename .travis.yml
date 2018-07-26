@@ -10,10 +10,10 @@ branches:
     - master
 
 cache:
-  apt: true
-  yarn: true
-  directories:
-    - node_modules
+    #  apt: true
+    #yarn: true
+    #directories:
+    # - node_modules
 
 before_install: 
   - git config user.name "START_END"  #修改name
