@@ -1,7 +1,7 @@
 ---
 title: iOS 签名机制
-date: 2017-7-1
-updated: 2017-7-1
+date: 2018-5-12
+updated: 2018-5-15
 categories: 
 - iOS
 tags:

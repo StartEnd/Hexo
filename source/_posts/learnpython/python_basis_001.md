@@ -1,7 +1,7 @@
 ---
 title: Learn python(001)	基础
-date: 2016-7-1
-updated: 2016-7-3
+date: 2018-7-1
+updated: 2018-7-3
 categories: 
 - Python
 tags:

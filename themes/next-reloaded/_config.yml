@@ -127,9 +127,10 @@ menu:
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
+
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -156,7 +157,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   #GitHub: https://github.com/StartEnd || github
-  E-Mail: 996982027@qq.com || envelope
+  E-Mail: mailto:996982027@qq.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
