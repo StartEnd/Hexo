@@ -100,7 +100,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: true
+seo: false
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -857,7 +857,7 @@ canvas_ribbon:
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: vendors
+  _internal: lib
 
   # Internal version: 2.1.3
   jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
