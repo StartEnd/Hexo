@@ -15,7 +15,7 @@ footer: Make everything as simple as possible,but not simpler
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: yuanchunxiang.com
 root: /
-permalink: :year/:title/
+permalink: :abbrlink/
 permalink_defaults:
 
 # Directory
@@ -170,4 +170,10 @@ generator_amp:
     width:  1024
     height: 800
   warningLog: false   # To display warning, please set true.
+  
+  
+ # 生成链接
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
   

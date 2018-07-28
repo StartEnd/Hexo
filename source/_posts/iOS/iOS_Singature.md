@@ -2,11 +2,12 @@
 title: iOS 签名机制
 date: 2018-5-12
 updated: 2018-5-15
-categories: 
-- iOS
+categories:
+  - iOS
 tags:
-- 加密
-- 签名
+  - 加密
+  - 签名
+abbrlink: 8688025b
 ---
 
 
