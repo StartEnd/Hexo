@@ -13,7 +13,7 @@ footer: Make everything as simple as possible,but not simpler
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: www.yuanchunxiang.com
+url: yuanchunxiang.com
 root: /
 permalink: :category/:abbrlink/
 permalink_defaults:
