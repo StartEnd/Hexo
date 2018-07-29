@@ -13,7 +13,7 @@ footer: Make everything as simple as possible,but not simpler
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: yuanchunxiang.com
+url: www.yuanchunxiang.com
 root: /
 permalink: :category/:abbrlink/
 permalink_defaults:
@@ -161,3 +161,6 @@ abbrlink:
   rep: hex    # 进制：dec(default) and hex
  
   
+  
+google_site_verification: SS7M31BxfutiHOYToLVVzeNGuTnHUfz3Dy1GQTZ0izw
+baidu-site-verification: NhcdmsLVtW
