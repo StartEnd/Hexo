@@ -11,5 +11,5 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 
-Sitemap: http://www.yuanchunxiang.com/sitemap.xml
+Sitemap: https://yuanchunxiang.com/sitemap.xml
 Sitemap: http://www.yuanchunxiang.com/baidusitemap.xml
