@@ -153,7 +153,6 @@ generator_amp:
     width:  1024
     height: 800
   warningLog: false   # To display warning, please set true.
-  cache: "/home/travis/hexo-generator-amp-cached.json"
   
   
  # 生成链接
