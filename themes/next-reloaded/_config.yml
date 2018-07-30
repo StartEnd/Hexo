@@ -525,8 +525,8 @@ gitment:
   language: # Force language, or auto switch by theme
   github_user: StartEnd # MUST HAVE, Your Github Username
   github_repo: StartEnd.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: 23925e92cde8c144f375 # MUST HAVE, Github client id for the Gitment
-  client_secret: a09b4103b648e2f04e99cd0748b940b74051eeb3 # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  client_id: 707710063f16f73aa47d # MUST HAVE, Github client id for the Gitment
+  client_secret: d5a251f817148c7056e3266ebc1f793df84bb0aa # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
